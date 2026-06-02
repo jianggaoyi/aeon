@@ -2,4 +2,14 @@ model: claude-opus-4-8
 skills:
   heartbeat:
     enabled: true
-    schedule: "*/5 * * * *"
+    schedule: "0 */8 * * *"
+  deep-research:
+    enabled: true
+    schedule: "0 8 * * *"
+    var: "AI Agents and Automation"
+  hacker-news-digest:
+    enabled: true
+    schedule: "0 14 * * *"
+  morning-brief:
+    enabled: true
+    schedule: "0 7 * * *"
